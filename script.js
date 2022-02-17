@@ -6,3 +6,6 @@ console.log(nums);
 var arr = [200, 100, 300];
 arr.splice(2, 0, 10000);
 console.log(arr);
+
+var arr = [100, 200, 300];
+console.log(typeof(arr));
