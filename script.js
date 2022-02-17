@@ -105,3 +105,14 @@ class Wizard {
 const x = new Wizard(545, 210, 10);
 console.log(x.health, x.mana, x.armor);
 x.attack();
+
+// const planets = ['수성', '금성', '지구', '화성', '목성', '토성', '천왕성', '해왕성'];
+// const question = prompt('몇 번째 행성인가요?');
+// console.log(planets[question - 1]);
+
+const number = prompt('숫자를 입력하세요.');
+if ( number % 3 === 0 ) {
+  console.log('짝');
+} else {
+  console.log(number);
+}
