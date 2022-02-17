@@ -124,9 +124,23 @@
 // const result = reverse.split("").reverse().join("");
 // console.log(result);
 
-const yourStature = prompt('당신의 키를 입력해 주세요.');
-if ( yourStature >= 150 ) {
-  console.log('YES');
-} else {
-  console.log('NO');
-}
+// const yourStature = prompt('당신의 키를 입력해 주세요.');
+// if ( yourStature >= 150 ) {
+//   console.log('YES');
+// } else {
+//   console.log('NO');
+// }
+
+// const score = prompt("점수를 입력해주세요.").split(" ");
+// let sum = 0;
+// for (let i = 0; i < 3; i++) {
+//   sum += parseInt(score[i]);
+// }
+// const average = sum / score.length;
+// console.log(average);
+
+const score = [20, 30, 40];
+const average = score.reduce( (a, b) => a + b, 0) / score.length;
+console.log(average);
+
+
