@@ -40,36 +40,68 @@ console.log(result);
 var today = second.concat('일 입니다.');
 console.log(today);
 
-for ( var i = 1; i <= 5; i++) {
+for (var i = 1; i <= 5; i++) {
   console.log('*'.repeat(i));
 }
 console.log('\n');
 
-for ( var i = 5; i > 0; i--) {
+for (var i = 5; i > 0; i--) {
   console.log('*'.repeat(i));
 }
 console.log('\n');
 
-for ( var i = 0; i < 11; i += 2) {
+for (var i = 0; i < 11; i += 2) {
   console.log('*'.repeat(i));
 }
 console.log('\n');
 
-for ( var i = 10; i > 0; i -= 2) {
+for (var i = 10; i > 0; i -= 2) {
   console.log('*'.repeat(i));
 }
 console.log('\n');
 
-for ( var i = 1; i <= 16; i *= 2) {
+for (var i = 1; i <= 16; i *= 2) {
   console.log('*'.repeat(i));
 }
 console.log('\n');
 
-for ( var i = 1; i <= 5; i++) {
+for (var i = 1; i <= 5; i++) {
   console.log(' '.repeat(5 - i) + '*'.repeat(i));
 }
 console.log('\n');
 
-for ( var i = 5; i >= 1; i--) {
+for (var i = 5; i >= 1; i--) {
   console.log(' '.repeat(5 - i) + '*'.repeat(i));
 }
+console.log('\n');
+
+for (var i = 1; i <= 9; i += 2) {
+  console.log(' '.repeat((9 - i) / 2) + '*'.repeat(i));
+}
+console.log('\n');
+
+for (var i = 9; i >= 1; i -= 2 ) {
+  console.log(' '.repeat((9 - i) / 2) + '*'.repeat(i));
+}
+console.log('\n');
+
+let s = 0;
+for (let i = 1; i < 101; i++) {
+  s += i;
+}
+console.log(s);
+
+class Wizard {
+  constructor (health, mana, armor) {
+    this.health = health;
+    this.mana = mana;
+    this.armor = armor;
+  }
+
+  attack() {
+    return console.log('파이어볼');
+  }
+}
+const x = new Wizard(545, 210, 10);
+console.log(x.health, x.mana, x.armor);
+x.attack();
