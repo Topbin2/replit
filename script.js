@@ -139,8 +139,13 @@
 // const average = sum / score.length;
 // console.log(average);
 
-const score = [20, 30, 40];
-const average = score.reduce( (a, b) => a + b, 0) / score.length;
-console.log(average);
+// const score = [20, 30, 40];
+// const average = score.reduce( (a, b) => a + b, 0) / score.length;
+// console.log(average);
 
+// const number = prompt('두개의 숫자를 입력해 주세요.').split(" ");
+// console.log(Math.pow(parseInt(number[0], 10), parseInt(number[1], 10)));
+
+const n = prompt('두개의 숫자를 입력해 주세요.').split(" ");
+console.log(parseInt(n[0] / n[1], 10) + " " + parseInt(n[0] % n[1], 10));
 
