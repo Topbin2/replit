@@ -146,6 +146,53 @@
 // const number = prompt('두개의 숫자를 입력해 주세요.').split(" ");
 // console.log(Math.pow(parseInt(number[0], 10), parseInt(number[1], 10)));
 
-const n = prompt('두개의 숫자를 입력해 주세요.').split(" ");
-console.log(parseInt(n[0] / n[1], 10) + " " + parseInt(n[0] % n[1], 10));
+// const n = prompt('두개의 숫자를 입력해 주세요.').split(" ");
+// console.log(parseInt(n[0] / n[1], 10) + " " + parseInt(n[0] % n[1], 10));
+
+// const text = prompt('아무거나 입력하세요.');
+// console.log(text.toUpperCase());
+
+// const num = prompt('반지름을 입력하세요.');
+// function circle(n) {
+//   const result = n * n * 3.14;
+//   return result;
+// }
+// console.log(circle(num));
+
+// const planets = {
+//   수성 : 'Mercury',
+//   금성 : 'Venus',
+//   지구 : 'Earth',
+//   화성 : 'Mars',
+//   목성 : 'Jupiter',
+//   토성 : 'Saturn',
+//   천왕성 : 'Uranus',
+//   해왕성 : 'Neptune',
+// };
+// const name = prompt('행성의 이름을 입력하세요.');
+// console.log(planets[name]);
+
+// const keys = prompt('이름을 입력하세요.').split(" ");
+// const values = prompt('점수를 입력하세요.').split(" ");
+// const obj = {};
+// for (let i = 0; i < keys.length; i++) {
+//   obj[keys[i]] = parseInt(values[i], 10);
+// }
+// console.log(obj);
+
+// const text = prompt('문자를 입력하세요.');
+// for (let i = 0; i < text.length - 1; i++) {
+//   console.log(text[i], text[i + 1]);
+// }
+
+// const text = prompt('알파벳을 입력하세요.');
+// if ( text === text.toUpperCase() ) {
+//   console.log('Yes');
+// } else {
+//   console.log('NO');
+// }
+
+const sentence = prompt('문장을 입력하세요');
+const word = prompt('찾을 단어를 입력하세요.');
+console.log(sentence.indexOf(word));
 
