@@ -192,7 +192,9 @@
 //   console.log('NO');
 // }
 
-const sentence = prompt('문장을 입력하세요');
-const word = prompt('찾을 단어를 입력하세요.');
-console.log(sentence.indexOf(word));
+// const sentence = prompt('문장을 입력하세요');
+// const word = prompt('찾을 단어를 입력하세요.');
+// console.log(sentence.indexOf(word));
 
+const text = prompt('문장을 입력하세요.');
+console.log(text.split(" ").length);
