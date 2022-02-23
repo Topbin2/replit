@@ -196,5 +196,27 @@
 // const word = prompt('찾을 단어를 입력하세요.');
 // console.log(sentence.indexOf(word));
 
-const text = prompt('문장을 입력하세요.');
-console.log(text.split(" ").length);
+// const text = prompt('문장을 입력하세요.');
+// console.log(text.split(" ").length);
+
+// const text = prompt('숫자를 입력하세요.').split("").reverse();
+// let result = '';
+// for (let i = 0; i < text.length; i++) {
+//   result += text[i];
+// }
+// console.log(result);
+
+const unsorted = prompt('키를 입력하세요');
+let sorted = "";
+
+sorted = unsorted
+  .split(" ")
+  .sort()
+  .join(" ");
+
+if (unsorted === sorted) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
+
