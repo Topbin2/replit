@@ -206,17 +206,40 @@
 // }
 // console.log(result);
 
-const unsorted = prompt('키를 입력하세요');
-let sorted = "";
+// const unsorted = prompt('키를 입력하세요');
+// let sorted = "";
 
-sorted = unsorted
-  .split(" ")
-  .sort()
-  .join(" ");
+// sorted = unsorted
+//   .split(" ")
+//   .sort()
+//   .join(" ");
 
-if (unsorted === sorted) {
-  console.log("Yes");
-} else {
-  console.log("No");
+// if (unsorted === sorted) {
+//   console.log("Yes");
+// } else {
+//   console.log("No");
+// }
+
+// function one(n){
+//     function two(value){
+//         const num = Math.pow(n, value);
+//         return num;
+//     }
+//     return two;
+// }
+
+// const a = one(2);
+// const b = one(3);
+// const c = one(4);
+
+// console.log(a(10));
+// console.log(b(10));
+// console.log(c(10));
+
+const num = prompt('숫자를 입력해 주세요.');
+let result = '';
+for ( let i = 1; i < 10; i++ ) {
+  result = result + num * i + ' ';
 }
 
+console.log(result);
