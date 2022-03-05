@@ -236,10 +236,10 @@
 // console.log(b(10));
 // console.log(c(10));
 
-const num = prompt('숫자를 입력해 주세요.');
-let result = '';
-for ( let i = 1; i < 10; i++ ) {
-  result = result + num * i + ' ';
-}
+// const num = prompt('숫자를 입력해 주세요.');
+// let result = '';
+// for ( let i = 1; i < 10; i++ ) {
+//   result = result + num * i + ' ';
+// }
 
-console.log(result);
+// console.log(result);
